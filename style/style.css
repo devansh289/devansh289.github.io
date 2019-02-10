@@ -506,12 +506,7 @@ section {
       padding: 0; }
     section:nth-of-type(3) .filter-wrap {
       position: relative; }
-    section:nth-of-type(3) .filter {
-      font-size: 6pt;
-      font-weight: 600;
-      padding: 0 20px;
-      cursor: pointer;
-      transition: background-color .5s; }
+  
     section:nth-of-type(3) .float-bar {
       top: 0;
       bottom: 0;
@@ -567,11 +562,11 @@ section {
           background: #E31B6D;
           color: #fff; }
         section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-          background: url("img/thumb-1.jpg") center center/cover; }
+          background: url("img/parkcision.jpg") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("img/thumb-2.jpg") center center/cover; }
+          background: url("img/listify.jpg") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-          background: url("img/thumb-3.jpg") center center/cover; }
+          background: url("img/ballflip.jpg") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
           background: url("img/thumb-4.jpg") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
