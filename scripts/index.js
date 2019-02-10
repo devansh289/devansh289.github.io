@@ -147,7 +147,7 @@ $(function() {
   }
 
   setTimeout(function() { onScrollInit($('.waypoint')) }, 10);
-
+/*
   // CONTACT FORM
   $('#contact-form').submit(function(e) {
     e.preventDefault();
@@ -166,5 +166,5 @@ $(function() {
   $('#close').click(function() {
     $('#success').removeClass('expand');
   })
-
+*/
 });
