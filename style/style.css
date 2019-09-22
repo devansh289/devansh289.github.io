@@ -682,6 +682,14 @@ section:nth-of-type(3) #gallery .text,
 section:nth-of-type(3) #gallery .button {
   z-index: 2;
   text-align: center;
+
+  transition: all 0.3s ease-in-out;
+  color: #1b242f;
+}
+
+section:nth-of-type(3) #gallery .text {
+  z-index: 2;
+  text-align: center;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   color: #1b242f;
@@ -694,10 +702,9 @@ section:nth-of-type(3) #gallery .button {
   right: 0;
   bottom: 0;
   left: 0;
-  position: absolute;
   border: 2px solid #e31b6d;
   width: 170px;
-  margin: 0 auto;
+  margin: 9px auto;
   font-size: 13pt;
   padding: 7px 0;
 }
@@ -742,7 +749,7 @@ section:nth-of-type(3) #gallery .mix .card {
   transition: opacity 0.5s;
 }
 section:nth-of-type(3) #gallery .mix:hover .card {
-  opacity: 0;
+  opacity: 0.3;
 }
 section:nth-of-type(3) #gallery .mix:hover .text {
   opacity: 1;
